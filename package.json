@@ -1,13 +1,12 @@
 {
-  "name": "atom-react-native-snippets",
-  "main": "./lib/atom-react-native-snippets",
+  "name": "react-native-snippets",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "React Native Snippets for Atom and Nuclide",
   "keywords": [
+    "react-native",
+    "nuclide",
+    "snippets"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-react-native-snippets:toggle"
-  },
   "repository": "https://github.com/atom/atom-react-native-snippets",
   "license": "MIT",
   "engines": {

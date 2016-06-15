@@ -1,0 +1,53 @@
+'.source.js':
+  'React Native Component File':
+    'prefix': 'rnc'
+    'body': '''/* @flow */
+
+      import React, { Component } from 'react';
+      import {
+        View,
+        Text,
+        StyleSheet,
+      } from 'react-native';
+
+      export default class ${1:MyComponent} extends Component {
+        render() {
+          return (
+            ${2:<View style={styles.container\\}>
+              ${3:<Text>${4:I'm the ${1:MyComponent} component}</Text>}
+            </View>}
+          );$5
+        }
+      }
+
+      const styles = StyleSheet.create({
+        container: {
+          flex: 1,
+        },
+      });
+      '''
+  'React Native Pure Component File':
+    'prefix': 'rnp'
+    'body': '''/* @flow */
+
+      import React, { Component } from 'react';
+      import {
+        View,
+        Text,
+        StyleSheet,
+      } from 'react-native';
+
+      const ${1:MyComponent} = ({$2}) => (
+        ${3:<View style={styles.container\\}>
+          ${4:<Text>${5:I'm ${1:MyComponent}}</Text>}
+        </View>}
+      );$6
+
+      export default ${1:MyComponent};
+
+      const styles = StyleSheet.create({
+        container: {
+          flex: 1,
+        },
+      });
+      '''
