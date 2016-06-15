@@ -7,7 +7,7 @@
     "nuclide",
     "snippets"
   ],
-  "repository": "https://github.com/atom/atom-react-native-snippets",
+  "repository": "https://github.com/aakashns/atom-react-native-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
