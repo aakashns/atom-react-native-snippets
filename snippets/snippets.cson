@@ -28,7 +28,7 @@
       '''
   'React Native Pure Component File':
     'prefix': 'rnp'
-    'body': '''/* @flow */
+    'body': '''/* @flow weak */
 
       import React from 'react';
       import {
