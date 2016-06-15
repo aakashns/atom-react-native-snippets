@@ -1,5 +1,24 @@
-# atom-react-native-snippets package
+# react-native-snippets
 
-A short description of your package.
+React Native snippets for Atom and Nuclide.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Installation
+------------
+
+Run the following terminal command:
+```
+apm install react-native-snippets
+```
+
+Usage
+-----
+
+The package provides two snippets
+
+* `rnc` - React Native Class Component Boilerplate
+
+<img src="http://i.imgur.com/yPeNJaP.gif" height="450px">
+
+* `rnp` - React Native Pure Component Boilerplate
+
+<img src="http://i.imgur.com/EWCeHpi.gif" height="450px">
