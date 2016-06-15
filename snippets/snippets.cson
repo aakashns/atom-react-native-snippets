@@ -1,7 +1,7 @@
 '.source.js':
   'React Native Component File':
     'prefix': 'rnc'
-    'body': '''/* @flow */
+    'body': '''/* @flow weak */
 
       import React, { Component } from 'react';
       import {
