@@ -1,6 +1,6 @@
 {
   "name": "react-native-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "React Native Snippets for Atom and Nuclide",
   "keywords": [
     "react-native",
@@ -12,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
